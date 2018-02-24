@@ -51,7 +51,7 @@
 .b-sidebar .nav-icon:hover {
     background-color: rgb(61, 85, 221);
 }
-.b-sidebar .nav-icon:hover i {
+.b-sidebar .nav-icon:hover a:not(.active) i {
     background-image: linear-gradient(
         to bottom right, #85ffff, #55fdd3, #39b997);
 }
@@ -80,4 +80,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+
+.b-sidebar a.active {
+    background-color: rgb(71, 85, 161);
 }
