@@ -8,9 +8,12 @@ import {
 import Navigation from './components/navigation';
 import Main from './Main'
 
+import './style/main.css'
+
 const App = () => (
   <div>
     <Navigation />
+    <div className="test" />
     <Main />
   </div>
 )

@@ -8,7 +8,6 @@ import { faExchangeAlt, faChartLine, faCogs, faShare, faSignOutAlt, faInfo,  } f
 const Header = () => (
   <header>
     <nav>
-     
         <div><Link to='/dashboard'>Dashboard</Link></div>
         <div><Link to='/exchange'>Exchange</Link></div>
         <div><Link to='/send'>Send</Link></div>
@@ -17,7 +16,6 @@ const Header = () => (
           <Link to='/info'>Info</Link>
           <Link to='/exit'>Exit</Link>
         </div>
-
     </nav>
   </header>
 )
