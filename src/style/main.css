@@ -3,6 +3,8 @@
     padding: 0; 
     
     text-decoration: none;
+
+    font-family: 'Montserrat', sans-serif;
 }
 
 html {
@@ -21,74 +23,29 @@ body {
         #162C47, #0B1636);
 }
 
-.b-sidebar {
-    background-color: 	#0C112F;
-    height: 100%;
-    position: fixed;
-    width: 200px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto;
-    grid-template-areas:
-        "logo logo"
-        "nav1 nav1"
-        "nav2 nav2"
-        "nav3 nav3"
-        "nav4 nav4"
-        "nav5 nav6";
+main {
+    position: absolute;
+    left: 200px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: scroll;
+    padding: 150px;
 }
 
-.b-sidebar > .logo {
-    background-color:rgb(30, 44, 121);
-    grid-area: logo;
-}
-
-.b-sidebar > div {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    transition: all 180ms;
-}
-
-.b-sidebar > div:nth-child(2) {
-    grid-area: nav1;
-}
-.b-sidebar > div:nth-child(3) {
-    grid-area: nav2;
-}
-.b-sidebar > div:nth-child(4) {
-    grid-area: nav3;
-}
-.b-sidebar > div:nth-child(5) {
-    grid-area: nav4;
-}
-.b-sidebar > div:nth-child(6) {
-    grid-area: nav5;
-}
-.b-sidebar > div:nth-child(7) {
-    grid-area: nav6;
-}
-
-.b-sidebar .nav-icon:hover {
-    background-color: rgb(61, 85, 221);
-}
-.b-sidebar .nav-icon:hover i {
-    background-image: linear-gradient(
-        to bottom right, #85ffff, #55fdd3, #39b997);
-}
-
-.b-sidebar .nav-icon i {
-    font-size: 100px;
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
     background-image: linear-gradient(
         to bottom right, #09ffff, #20e3b2, #138668);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    margin-bottom: 50px;
 }
 
-
-.b-sidebar .nav-icon:last-child i {
-    font-size: 75px;
+main p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color:  #20e3b2;
 }
-

@@ -11,11 +11,12 @@ import Main from './Main'
 import './res/fontawesome/css/fontawesome.min.css'
 import './res/fontawesome/css/fa-solid.min.css'
 import './style/main.css'
+import './style/navigation.css'
+
 
 const App = () => (
   <div>
     <Navigation />
-    <div className="test" />
     <Main />
   </div>
 )
