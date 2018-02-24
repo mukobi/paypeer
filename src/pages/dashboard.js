@@ -1,9 +1,18 @@
 import React from 'react';
+import TradingView from '../components/trading-view';
 
 const Dashboard = () => (
-    <div>
-        <h1>Dashboard</h1>
-        <p>This is your Dashboard page.</p>
+    <div className="b-content" >
+        <div>
+            <h1>Dashboard</h1>
+        </div>
+        <div className="balance">
+            <h2>Balance</h2>
+            <p>Please login to see your balance</p>
+        </div>
+        <div>
+            <TradingView />
+        </div>
     </div>
 );
 

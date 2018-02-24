@@ -57,7 +57,7 @@
 }
 
 .b-sidebar .nav-icon i {
-    font-size: 100px;
+    font-size: 80px;
     background-image: linear-gradient(
         to bottom right, #09ffff, #20e3b2, #138668);
     -webkit-background-clip: text;
@@ -66,8 +66,8 @@
 }
 
 
-.b-sidebar .nav-icon:last-child i {
-    font-size: 75px;
+.b-sidebar .nav-icon:nth-child(6) i, .b-sidebar .nav-icon:nth-child(7) i {
+    font-size: 60px;
 }
 
 .b-sidebar div a {
