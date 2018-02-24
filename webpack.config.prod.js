@@ -1,23 +1,21 @@
-const config = require('./webpack.config.js');
-const webpack = require('webpack');
-const UglifyJsPlugin = require('uglifyes-webpack-plugin');
+const path = require('path');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
-config.plugins.push(
-  new webpack.DefinePlugin({
-    "process.env": {
-      "NODE_ENV": JSON.stringify("production")
-    }
-  })
-);
-
-config.plugins.push(
-  new UglifyJsPlugin({
-    test: /\.js($|\?)/i,
-    sourceMap: true,
-    compress: {
-      warnings: false
-    }
-  })
-);
-
-module.exports = config;
+module.exports = {
+  entry: {
+    app: './index.js'
+  },
+  plugins: [
+    new CleanWebpackPlugin(['dist']),
+    new HtmlWebpackPlugin({
+      title: 'Production'
+    }),
+    new UglifyJSPlugin()
+  ],
+  output: {
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist')
+  }
+};
