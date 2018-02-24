@@ -16,7 +16,7 @@ import './style/navigation.css'
 
 const App = () => (
   <div>
-    <Route path="/:id" component={Navigation} />
+    <Navigation />
     <Main />
   </div>
 )
