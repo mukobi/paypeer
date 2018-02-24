@@ -11,10 +11,8 @@ const Header = () => (
     <div className="nav-icon"><Link to='/exchange'><i className="fas fa-exchange-alt" /></Link></div>
     <div className="nav-icon"><Link to='/send'><i className="fas fa-share" /></Link></div>
     <div className="nav-icon"><Link to='/account'><i className="fas fa-cogs" /></Link></div>
-    <div className="nav-icon">
-      <Link to='/info'><div><i className="fas fa-info" /></div></Link>
-      <Link to='/exit'><div><i className="fas fa-sign-out-alt" /></div></Link>
-    </div>
+    <div className="nav-icon"><Link to='/info'><i className="fas fa-info" /></Link></div>
+    <div className="nav-icon"><Link to='/exit'><i className="fas fa-sign-out-alt" /></Link></div>
   </header>
 )
 
