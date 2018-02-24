@@ -1,5 +1,12 @@
-import React from 'react'
+import React from 'react';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/fontawesome-free-solid'
 
-const Home = () => <div>Hello World!</div>
+const Home = () => (
+    <div>
+        <div>Hello World!</div>
+        <FontAwesomeIcon icon={faCoffee} />
+    </div>
+);
 
 export default Home
