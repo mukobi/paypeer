@@ -1,0 +1,32 @@
+.b-send .send-widget > .input {
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.b-send .send-widget h2 {
+    margin-bottom: 30px;
+}
+
+.b-send .send-widget .search-text {
+    background: white;
+    border: medium none;
+    color: black;
+    height: 50px;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.b-send .send-widget .search-submit {
+    position: absolute;
+    width: 20%;
+    top: -2;
+    bottom: -2;
+    right: -2;
+    color: white;
+    background: #1c9bff none repeat scroll 0 0;
+    user-select: none;
+    border-left: 2px solid #1c9bff;
+    cursor: pointer;
+}

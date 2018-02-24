@@ -18,22 +18,28 @@
 .b-exchange-widget .currency-input {
     background: #1c9bff none repeat scroll 0 0;
     border: medium none;
-    color: #ffffff;
+    color: white;
     height: 50px;
     padding: 10px;
     width: 100%;
     text-align: left;
 }
 
+.b-exchange-widget .currency-input::placeholder {
+    color: white;
+    opacity: 1;
+}
+
 .b-exchange-widget .currency-type {
     top: 0;
     background: #077aea none repeat scroll 0 0;
     border: medium none;
-    color: #ffffff;
+    color: white;
     height: 50px;
     padding: 0 15px;
     position: absolute;
     right: 0;
+    cursor: pointer;
 }
 
 .b-exchange-widget i {

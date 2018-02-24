@@ -1,15 +1,17 @@
 import React from 'react'
+import '../style/send.css';
 
 const Send = () => (
-    <div className="b-content">
+    <div className="b-content b-send">
         <div className="title">
             <h1>Send</h1>
-            <p>This is your Send page.</p>
         </div>
-        <div>
+        <div className="send-widget">
             <h2>Find users</h2>
-            <input type="text" name="nick" class="form-control" placeholder="Search by nickname..." />
-            <input type="submit" class="btn send_button btn-default" name="search" value="Search" />
+            <div className="input">
+                <input type="text" name="nick" className="search-text" placeholder="Search by nickname..." />
+                <input type="submit" className="search-submit" name="search" value="Search" />
+            </div>
         </div>
     </div>
 );
