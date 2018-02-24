@@ -21,6 +21,7 @@ html {
 body {
     background: linear-gradient(
         rgb(31, 62, 100), rgb(9, 18, 44));
+    overflow: hidden;
 }
 
 main {

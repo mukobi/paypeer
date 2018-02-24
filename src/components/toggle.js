@@ -1,31 +1,18 @@
 import React from 'react';
 
 class Toggle extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {addClass: false}
-    }
 
-    toggle() {
-        console.log("toggled" + this);
-        this.setState({addClass: !this.state.addClass});
-    }
-
-    alertMe() {
-        alert("test");
+    onToggle() {
+        this.props.onToggle(this.props.id);
     }
 
     render() {
-        let activeClass = ["toggle"];
-        if(this.state.addClass) {
-            activeClass.push('active');
-        }
+        let outerClass = this.props.activeId === this.props.id ? "toggle active" : "toggle";
         return (
-            <div className={activeClass.join(" ")} onClick={this.toggle.bind(this)}>
+            <div className={outerClass} onClick={this.onToggle.bind(this) }>
                 <div className="toggle-title">
                     <h3>
-                    <i></i>
-                    <span className="title-name">{this.props.title}</span>
+                        <span className="title-name">{this.props.title}</span>
                     </h3>
                 </div>
                 <div className="toggle-inner">
