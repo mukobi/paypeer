@@ -1,0 +1,42 @@
+.b-exchange-widget {
+    display: flex;
+    flex-wrap: none;
+    justify-content: space-around;
+}
+
+.b-exchange-widget .input-area {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-grow: 1;
+    max-width: 400px;
+}
+
+.b-exchange-widget .currency-input {
+    background: #1c9bff none repeat scroll 0 0;
+    border: medium none;
+    color: #ffffff;
+    height: 50px;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.b-exchange-widget .currency-type {
+    top: 0;
+    background: #077aea none repeat scroll 0 0;
+    border: medium none;
+    color: #ffffff;
+    height: 50px;
+    padding: 0 15px;
+    position: absolute;
+    right: 0;
+}
+
+.b-exchange-widget i {
+    display: block;
+    margin: 0 10px;
+    font-size: 20pt;
+    line-height: 50px;
+}
+
