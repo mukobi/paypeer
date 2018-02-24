@@ -8,6 +8,8 @@ import {
 import Navigation from './components/navigation';
 import Main from './Main'
 
+import './res/fontawesome/css/fontawesome.min.css'
+import './res/fontawesome/css/fa-solid.min.css'
 import './style/main.css'
 
 const App = () => (

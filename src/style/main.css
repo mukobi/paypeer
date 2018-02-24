@@ -33,17 +33,24 @@ body {
     width: 100%;
     height: 100%;
     flex-grow: 1;
-    border: 2px solid white;
-
     display: flex;
-  justify-content: space-around;
-  align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 200ms;
 }
 
-.b-sidebar > .nav-icon svg {
+.b-sidebar .nav-icon:hover {
+    background-color: white;
+}
+
+
+.b-sidebar .nav-icon i {
     font-size: 100px;
-}
-
-.b-sidebar > .nav-icon:last-child svg {
-    font-size: 75px;
+    background-image: linear-gradient(
+        to bottom right, #09ffff, #20e3b2, #138668);
+     
+    -webkit-background-clip: text;
+    background-clip: text;
+     
+    color: transparent;
 }
