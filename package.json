@@ -11,7 +11,7 @@
     "start": "node server.js",
     "build": "webpack",
     "clean": "rimraf dist",
-    "heroku-postbuild": "webpack -p --config ./webpack.config.js --progress"
+    "heroku-postbuild": "webpack --progress"
   },
   "author": "mukobi",
   "repository": {
