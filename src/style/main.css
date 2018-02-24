@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0; 
+    
+    text-decoration: none;
 }
 
 html {
@@ -29,10 +31,14 @@ body {
     justify-content: space-between;
 }
 
-.b-sidebar > .nav-icon {
-    width: 100%;
-    height: 100%;
+.b-sidebar > .logo {
     flex-grow: 1;
+    background-color:rgb(30, 44, 121);
+}
+
+.b-sidebar > div {
+    width: 100%;
+    flex-grow: 3;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -40,17 +46,40 @@ body {
 }
 
 .b-sidebar .nav-icon:hover {
-    background-color: white;
+    background-color: rgb(61, 85, 221);
 }
 
+.b-sidebar .nav-icon:last-child:hover {
+    background-color: initial;
+}
 
 .b-sidebar .nav-icon i {
     font-size: 100px;
     background-image: linear-gradient(
         to bottom right, #09ffff, #20e3b2, #138668);
-     
     -webkit-background-clip: text;
     background-clip: text;
-     
     color: transparent;
 }
+
+.b-sidebar .nav-icon:last-child {
+    display: block;
+}
+
+.b-sidebar .nav-icon:last-child div {
+    width: 50%;
+    display: inline-flex;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 200ms;
+} 
+
+.b-sidebar .nav-icon:last-child div:hover {
+    background-color: rgb(61, 85, 221);
+}
+
+.b-sidebar .nav-icon:last-child i {
+    font-size: 75px;
+}
+
