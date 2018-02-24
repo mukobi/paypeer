@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 
 import Navigation from './components/navigation';
-import Main from './Main'
+import Main from './main'
 
 import './res/fontawesome/css/fontawesome.min.css'
 import './res/fontawesome/css/fa-solid.min.css'

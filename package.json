@@ -18,7 +18,11 @@
     "url": "git+https://github.com/mukobi/paypeer.git"
   },
   "license": "ISC",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.1.1",
     "babel-core": "^6.24.1",
     "babel-loader": "^6.4.1",
     "babel-preset-env": "^1.6.1",
@@ -31,10 +35,5 @@
     "url-loader": "^0.6.2",
     "webpack": "^2.3.3",
     "webpack-dev-middleware": "^1.10.1"
-  },
-  "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-router-dom": "^4.1.1"
   }
 }
