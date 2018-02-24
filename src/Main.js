@@ -1,24 +1,19 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import Home from './Pages/Home'
-import About from './Pages/About'
-import Contact from './Pages/Contact'
-import Gallery from './Pages/Gallery'
-import Impact from './Pages/Impact'
-import News from './Pages/News'
-import TakeAction from './Pages/TakeAction'
-import Team from './Pages/Team'
+
+import Dashboard from './pages/dashboard';
+import Exchange from './pages/exchange';
+import Send from './pages/send';
+import Account from './pages/account';
+import Info from './pages/info';
 const Main = () => (
   <main>
     <Switch>
-      <Route exact path='/' component={Home}/>
-      <Route exact path='/about' component={About}/>
-      <Route exact path='/contact' component={Contact}/>
-      <Route exact path='/gallery' component={Gallery}/>
-      <Route exact path='/impact' component={Impact}/>
-      <Route exact path='/news' component={News}/>
-      <Route exact path='/take_action' component={TakeAction}/>
-      <Route exact path='/team' component={Team}/>
+      <Route exact path='/dashboard' component={Dashboard}/>
+      <Route exact path='/exchange' component={Exchange}/>
+      <Route exact path='/send' component={Send}/>
+      <Route exact path='/account' component={Account}/>
+      <Route exact path='/info' component={Info}/>
     </Switch>
   </main>
 )

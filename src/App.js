@@ -5,12 +5,12 @@ import {
   Switch
 } from 'react-router-dom';
 
-import Header from './components/header';
+import Navigation from './components/navigation';
 import Main from './Main'
 
 const App = () => (
   <div>
-    <Header />
+    <Navigation />
     <Main />
   </div>
 )
