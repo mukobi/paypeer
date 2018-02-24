@@ -16,4 +16,4 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'pages', 'index.html'))
 })
 
-app.listen(8080, () => console.log('Server listening on 8080'))
+app.listen((process.env.PORT || 5000), () => console.log('Server listening on 8080'))
