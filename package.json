@@ -10,7 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "build": "webpack",
-    "clean": "rimraf dist"
+    "clean": "rimraf dist",
+    "heroku-postbuild": "webpack -p --config ./webpack.config.js --progress"
   },
   "author": "mukobi",
   "repository": {
