@@ -10,8 +10,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "build": "webpack",
+    "build": "webpack -p --progress --colors",
     "clean": "rimraf dist",
+    "postinstall": "webpack -p --progress --colors",
     "heroku-postbuild": "webpack --progress"
   },
   "author": "mukobi",
@@ -20,7 +21,10 @@
     "url": "git+https://github.com/mukobi/paypeer.git"
   },
   "license": "ISC",
-  "devDependencies": {},
+  "devDependencies": {
+    "uglifyes-webpack-plugin": "^0.4.3",
+    "uglifyjs-webpack-plugin": "^1.2.2"
+  },
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
