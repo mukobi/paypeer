@@ -3,7 +3,7 @@ import TradingView from '../components/trading-view';
 
 const Dashboard = () => (
     <div className="b-content" >
-        <div>
+        <div className="title">
             <h1>Dashboard</h1>
         </div>
         <div className="balance">
