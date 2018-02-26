@@ -53,14 +53,18 @@ h2 {
     font-size: 24pt;
 }
 
-p {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+h3 {
     font-size: 16pt;
 }
 
+p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 12pt;
+}
+
 main input {
-    font-size: 16pt;
+    font-size: 14pt;
 }
 
 .b-content .title {

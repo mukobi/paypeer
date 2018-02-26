@@ -1,7 +1,7 @@
 .b-info .toggle-list .toggle {
     overflow: hidden;
     transition: all 300ms;
-    padding: 20px 0;
+    padding: 15px 0;
     border-top: 2px solid white;
 }
 
@@ -15,10 +15,10 @@
     opacity: 0;
     padding: 0;
     transition:   
-      opacity .2s,
-      margin .2s 0.2s,
-      font-size .2s 0.2s,
-      padding .2s .2s;
+      opacity 0s,
+      margin .2s 0.0s,
+      font-size .2s 0.0s,
+      padding .2s 0s;
 }
 
 .b-info .toggle-list .toggle.active .toggle-inner p {
@@ -27,8 +27,8 @@
     height: auto;
     padding: 5px 0;
     transition:   
-      margin .2s,
-      padding .2s,
-      font-size .2s,
-      opacity .2s .2s;
+      margin .3s,
+      padding .3s,
+      font-size .3s,
+      opacity .2s .3s;
 }
