@@ -9,7 +9,7 @@
     cursor: pointer;
 }
 
-.b-info .toggle-list .toggle .toggle-inner {
+.b-info .toggle-list .toggle .toggle-inner p {
     font-size: 0;
     margin: 0;
     opacity: 0;
@@ -21,7 +21,7 @@
       padding .2s .2s;
 }
 
-.b-info .toggle-list .toggle.active .toggle-inner {
+.b-info .toggle-list .toggle.active .toggle-inner p {
     font-size: 16px;
     opacity: 1;
     height: auto;

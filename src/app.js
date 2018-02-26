@@ -13,7 +13,6 @@ import './res/fontawesome/css/fa-solid.min.css'
 import './style/main.css'
 import './style/navigation.css'
 
-
 const App = () => (
   <div>
     <Navigation />

@@ -46,11 +46,21 @@ h1 {
     background-clip: text;
     color: transparent;
     margin-bottom: 15px;
+    font-size: 32pt;
 }
 
-main p {
+h2 {
+    font-size: 24pt;
+}
+
+p {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    font-size: 16pt;
+}
+
+main input {
+    font-size: 16pt;
 }
 
 .b-content .title {
