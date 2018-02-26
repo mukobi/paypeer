@@ -6,6 +6,7 @@
     bottom: 0;
     left: 0;
     width: 160px;
+    border-right: 2px solid #1494ff;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 100px auto;
@@ -26,6 +27,11 @@
     width: 100%;
     position: relative;
     transition: all 180ms;
+    border-bottom: 2px solid #1494ff;
+}
+
+.b-sidebar > div:nth-child(6), .b-sidebar > div:nth-child(7) {
+    border: none;
 }
 
 .b-sidebar > div:nth-child(2) {
