@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-
+import '../style/navigation.css'
 
 // The Header creates links that can be used to navigate
 // between routes.

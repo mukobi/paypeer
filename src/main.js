@@ -6,6 +6,7 @@ import Exchange from './pages/exchange';
 import Send from './pages/send';
 import Account from './pages/account';
 import Info from './pages/info';
+import SignUp from './pages/sign-up';
 const Main = () => (
   <main>
     <Switch>
@@ -14,6 +15,7 @@ const Main = () => (
       <Route exact path='/send' component={Send}/>
       <Route exact path='/account' component={Account}/>
       <Route exact path='/info' component={Info}/>
+      <Route exact path='/sign-up' component={SignUp}/>
       <Route path='/' component={Dashboard}/>
     </Switch>
   </main>

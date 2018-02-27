@@ -1,8 +1,7 @@
 .b-sidebar {
-    background-color: 	#09132f;
-    height: 100%;
+    background-color: #09132f;
     position: fixed;
-    top: 0;
+    top: 80px;
     bottom: 0;
     left: 0;
     width: 160px;
@@ -17,6 +16,10 @@
     position: relative;
     transition: all 180ms;
     border-bottom: 2px solid #1494ff;
+}
+
+.b-sidebar .nav-icon:hover {
+    background-color: rgb(61, 85, 221);
 }
 
 .b-sidebar > div:nth-child(6) {
