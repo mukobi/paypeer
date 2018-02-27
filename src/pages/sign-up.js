@@ -6,7 +6,7 @@ const SignUp = () => (
     <div className="b-content b-login">
         <div className="title">
             <h1>Sign up for PayPeer</h1>
-            <p>Start exchange and sending your cryptocurrencies today!</p>
+            <p>Start exchanging and sending your cryptocurrencies today!</p>
         </div>
         <div className="login-form">
             <form>
