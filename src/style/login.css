@@ -1,0 +1,42 @@
+.b-login .login-form {
+    margin: 40px auto;
+}
+
+.b-login .login-form > form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.b-login .login-form > form > * {
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.b-login .login-form > form > input {
+    color: black;
+    margin-bottom: 15px;
+}
+
+.b-login .login-form > form > input[type="submit"] {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0);
+    border: 3px solid #077aea;
+    color: #ffffff;
+    font-size: 24px;
+    transition: all 200ms;
+    cursor: pointer;
+}
+
+.b-login .login-form > form > input[type="submit"]:hover {
+    background: rgba(67, 158, 250, 0.8);
+}
+
+
+.b-login .other-login > * {
+    display: inline;
+}
